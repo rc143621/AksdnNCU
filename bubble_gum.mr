@@ -4,7 +4,6 @@ unit_names units()
 public node use_bubble_gum_theme {
     input start_fullscreen: false;
     input speed_units: units.mph;
-    input pressure_units: units.inHg;
     input torque_units: units.lb_ft;
     input power_units: units.hp;
 
@@ -18,7 +17,6 @@ public node use_bubble_gum_theme {
         // Default Color Settings
         color_background: 0xF394BE,
         color_foreground: 0xFFFFFF,
-        color_highlight1: 0xfdeaf2,
         color_highlight2: 0xFFFFFF,
         color_shadow: 0xF394BE,
         color_pink: 0xfad4e5,
